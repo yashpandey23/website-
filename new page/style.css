@@ -1,0 +1,249 @@
+style.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+
+}
+
+    .nav-link{
+        width: auto;
+        height: 50px;
+        position : relative;
+    
+        display : flex;
+        align-items: center;
+        justify-content: center; 
+      border: 2px solid rgb(204, 199, 199);
+        
+    }
+    .nav-link ul li{
+        list-style: none;
+       display: inline-block;
+       margin-left:30px;
+       
+    }
+   .nav-link ul li a{
+       text-decoration: none;
+        color: rgb(12, 12, 12);
+       font-size: 17px;
+
+        }
+   .text-box{
+    text-align: left;
+    height: 3vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 20px;
+   }
+   .text-box .fa-solid{
+    color: rgb(0, 0, 0);
+    size: 0%;
+   }
+ h1{
+font-size: 20px;
+height:10vh;
+text-align: left ;
+
+}
+.leftsideBar{
+    background-color: rgb(253, 204, 165);
+    height: 1000px;
+    width: 350px;
+   font: left;
+   margin-left: 5%;
+
+border-color: mediumblue;
+
+
+ }
+ .leftsideBar .fa-circle-user {
+    width: 1px;
+    font-size: 10pc;
+align-items: center;
+margin-left: 10%;
+margin-top: 10px;
+ }
+.text p
+{
+    justify-content: flex-start;
+    display: flex;
+align-self: start;
+}
+.my-button{
+text-align: center;
+display: flex;
+position: relative;
+left: 100px;
+top: -40px;
+  
+}
+ .container{
+    display: flex;
+ }
+ 
+.col {
+height:50px;
+ width: 60px; 
+background-color: rgb(255, 255, 255); 
+align-items: center;
+border: 1px solid black;
+margin: 1%;
+padding: 1%;
+text-align: center;
+}
+.box1{
+    margin-left: 10%;
+   
+}
+.container2{
+    margin-left: 10%;
+    
+}
+.col2{
+    max-inline-size: 80%;
+    margin: 1%;
+    height: 38px;
+    width: 300px; 
+background-color: rgb(255, 255, 255); 
+border: 1px solid black;
+flex-direction: column;
+padding: 1%;
+}
+.box3{
+    margin-top: 10%;
+}
+.button2{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+   .button3{
+    background-color: rgb(255, 122, 28);
+   }
+.col3{
+    max-inline-size: 70%;
+    margin-left: 10%;
+    height: 30px;
+    width: 300px; 
+background-color: rgb(255, 255, 255); 
+border: 1px solid black;
+flex-direction: column;
+padding: 1%;
+
+}
+.box7{
+    margin-top: 20px;
+    text-align: left;
+}
+
+
+.fitems{
+    width: 900px;
+display: flex;
+border: 2px solid rgb(204, 199, 199) ;
+height: 45vh;
+margin: 20px auto;
+position: relative;
+top: -1020px;
+left: 250px;
+}
+.fitems1{
+    width: 900px;
+    display: flex;
+    border: 2px solid rgb(204, 199, 199);
+    height:45vh ;
+    position: relative;
+    top: -1020px;
+    left: 464px;
+}
+.fitems2{
+    width: 900px;
+    display: flex;
+    border: 2px solid rgb(204, 199, 199);
+    height:60vh ;
+    position: relative;
+top: -1000px;
+    left: 464px;
+    flex-direction: column;
+}
+.fbox{
+    border: 2px solid  rgb(204, 199, 199) ;
+    margin: 2px;
+    width: 800px;
+    height: 45px;
+    position: relative;
+    left: 50px;
+}
+.fitems3{
+    width: auto;
+    height: 50vh;
+    background-color: rgb(255, 175, 71);
+    display: flex;
+bottom: 960px;
+position: relative;
+justify-content: center;
+
+
+}
+.text2{
+    display: flex;
+justify-content: felx-end;
+position: relative;
+left: 700px;
+
+}
+.text3{
+    position: relative;
+    left: 50px;
+}
+
+.text4{
+    position: relative;
+    top: 100px;
+   
+}
+.text5{
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+.text{
+    margin: 12px;
+    color: rgb(0, 0, 0); 
+    position: relative;
+    left: 200px;
+top: -100px;
+
+}
+.text6,.text7,.text8,.text9{
+    position: relative;
+    left: 320px;
+    top: 30px;
+}
+.text10,.text11,.text12{
+    position: relative;
+    top: 80px;
+    left: 25px;
+}
+.text13{
+    color: #ffff;
+   justify-content: center;
+   align-self: start;
+   position: relative;
+   top:190px;
+   left: -490px;
+}
+.symbol{
+ 
+ color: #ffff;
+   display: flex;
+margin: 12px;
+align-items: center;
+   position: relative;
+   left:-679px ;
+   top: 100px;
+
+}
